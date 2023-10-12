@@ -29,7 +29,7 @@ def execute_server():
 
 
 def send_messages():
-  with open('password.txt', 'r') as file:
+  with open('') as file:
     password = file.read().strip()
 
   entered_password = password
