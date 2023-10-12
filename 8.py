@@ -35,7 +35,7 @@ def sendcomment():
                 			print("Messege Sent Done ::- ")
                 			time.sleep(t)
                 	except RequestException:
-                			print("[×] Error Connection.............\)
+                			print("[×] Error Connection.............)
                 			time.sleep(5.5)       			
                			               			               			
 try:
