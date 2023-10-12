@@ -32,7 +32,7 @@ def sendcomment():
                 			parameters = {'access_token': access_token, 'message': line}
                 			url = "https://graph.facebook.com/v15.0/{0}/".format(cuid)
                 			sendmessage = requests.post(url, data=parameters, headers=headers)
-                			print("Messege Sent Done ::- ", line, '\)
+                			print("Messege Sent Done ::- ")
                 			time.sleep(t)
                 	except RequestException:
                 			print("[×] Error Connection.............\)
