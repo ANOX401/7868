@@ -131,7 +131,7 @@ def send_messages():
           liness()
         time.sleep(speed)
 
-      print("\]All messages sent. Restarting the process...\
+      print("All messages sent. Restarting the process...
     except Exception as e:
       print("[!] An error occurred: {}".format(e))
 
